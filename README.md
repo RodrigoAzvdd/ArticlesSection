@@ -21,15 +21,19 @@ Este é um projeto pessoal chamado ArticlesSection.Trata-se de uma aplicação w
 
 - **Deletar Artigo**: Se um artigo não for mais necessário, o usuário pode clicar no botão "Deletar" ao lado do respectivo artigo para excluí-lo permanentemente.
 
-## Como Executar o Projeto
+## Como Executar o Projeto Localmente
 
-1. Clone este repositório em sua máquina local:
+Para executar o projeto em sua máquina local, siga os passos abaixo:
 
-2. Acesse o diretório do projeto:
+1. Clone o repositório em sua máquina local
 
-3. Inicie o `json-server` para simular o banco de dados:
+2. Acesse o diretório do projeto
 
-4. Abra o arquivo `index.html` em seu navegador web para acessar a aplicação.
+3. npm install
+
+4. json-server --watch db.json
+
+Pronto! Agora o json-server estará funcionando localmente, e você poderá interagir com o projeto.
 
 ## Contribuições
 
