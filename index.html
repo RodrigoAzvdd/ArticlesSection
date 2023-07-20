@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Requisições POST com Javascript</title>
+    <link rel="stylesheet" href="src/style/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <main class="main-content">
+            <form class="form" action="http://localhost:3000/articles" method="post">
+                <div class="form-title">
+                    <h2 class="main-title">Escrever um artigo</h2>
+                </div>
+                <div class="form-item">
+                    <label class="label" for="title">Título:</label>
+                    <input class="input" type="text" id="title" name="title" autocomplete="off">
+                </div>
+                <div class="form-item">
+                    <label class="label" for="author">Autor:</label>
+                    <input class="input" type="text" id="author" name="author" autocomplete="off">
+                </div>
+                <div class="form-item">
+                    <label class="label" for="content">Conteúdo:</label>
+                    <textarea class="textarea" id="content" name="content" cols="30" rows="10"></textarea>
+                </div>
+                <div class="form-item-btn">
+                    <button class="btn">Salvar</button>
+                </div>
+            </form>
+            <div class="article-section">
+                <h1 class="main-title">Artigos</h1>
+                <section id="articles">
+                    <p class="article-message">Nenhum Artigo Postado...</p>
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <ul class="footer-items">
+                <li><a href="https://linkedin.com/in/rodrigoazvd" class="footer-link" target="_blank">LinkedIn</a></li>
+                <li><a href="#" class="footer-link">Rodrigo Azvd © 2023</a></li>
+                <li><a href="https://www.github.com/RodrigoAzvdd" class="footer-link" target="_blank">Github</a></li>
+            </ul>
+        </footer>
+    </div>
+
+    <script src="src/js/index.js"></script>
+</body>
+
+</html>
